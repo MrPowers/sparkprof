@@ -1,0 +1,16 @@
+site_name: Spark Prof
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Install:
+    - install/how-to-install-java.md
+    - install/how-to-install-pyspark.md
+  - DataFrame:
+    - dataframe/gentle-introduction.md
+    - Creating DataFrames:
+      - dataframe/create/manually.md
+      - dataframe/create/from_csv.md
+    - Writing DataFrames:
+      - dataframe/write/to_csv.md
+    - dataframe/querying-spark-dataframes.md
